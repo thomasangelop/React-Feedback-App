@@ -29,13 +29,10 @@ class Page4 extends Component {
     event.preventDefault();
     this.props.dispatch( { type: 'ENTERED_COMMENTS_INFO', 
       payload: this.state} );
-      console.log('what is redux state', this.props.reduxState.feedbackReducer);      
-      
     //when form is submitted, this will send us to the next page
     window.location.hash = "5";
     this.addFeedbackToAdminDatabase();
   }
-
 
   addFeedbackToAdminDatabase = () => {
     console.log(' in add to DB function');

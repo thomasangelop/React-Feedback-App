@@ -1,4 +1,4 @@
-# Feedback Portal App Build In React
+# Feedback Portal App Built In React
 
 This is a feedback app build in React. It takes input on 4 pages, tells the user their progress and then posts the input to a database. There is also an admin portal showing all feedback and has the option to delete feedback from the database. 
 
